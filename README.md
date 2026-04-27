@@ -6,7 +6,7 @@ This repository contains implementations of algorithms studied in the <b>Design 
 
 <ul>
 <li>C implementations of various algorithms</li> 
-<li>Solutions to lab assignments and practice problems</li> 
+<li>Solutions to lab assignments </li> 
 
 </ul>
 
@@ -17,12 +17,16 @@ Some algorithms may belong to multiple concepts, but are placed under one primar
 
 <h2>⚙️ Language Used</h2> 
 
+<ul>
+  
 <li>C</li>
+
+</ul> 
 
 <h2>🚀 How to Run </h2>
 
 ```bash
-gcc filename.cpp -o output
+gcc filename.c -o output
 ./output
 ```
 
