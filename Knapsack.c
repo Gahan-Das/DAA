@@ -9,7 +9,6 @@ struct item{
 
 void Insertion_Sort();
 void Knapsack();
-void Swap();
 
 void main(){
     Knapsack();
@@ -74,8 +73,3 @@ void Insertion_Sort(struct item* values, int size){
     }
 }
 
-void Swap(int* A, int* B){
-    int temp = *A;
-    *A = *B;
-    *B = temp;
-}
