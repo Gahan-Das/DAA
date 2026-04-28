@@ -7,7 +7,7 @@ void Coin_Exchange();
 
 void main(){
     int size, arr[MAX];
-    printf("\nEnter the size of exchange values:");
+    printf("\nEnter the size of exchange values array:");
     scanf("%d", &size);
     printf("\nEnter the exchange values:");
     for (int i = 0; i < size; i++){
@@ -19,13 +19,13 @@ void main(){
 
 void Selection_Sort(int* arr, int size){
     for (int i = 0; i < size - 1; i++){
-        int min_idx = arr[i];
-        for (int j = i; j < size; j++){
+        int min_idx = i;
+        for (int j = i+1; j < size; j++){
             if(arr[j] < arr[min_idx]){
-                Swap((arr + min_idx), (arr + j));
                 min_idx = j;
             }
         }
+        Swap((arr + min_idx), (arr + i));
     }
 }
 
